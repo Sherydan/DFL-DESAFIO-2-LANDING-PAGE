@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: techmono;
+    src: url(../FONTS/ShareTechMono-Regular.ttf);
+}
+
+body{
+    background-image: url("../IMG/background-3.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: techmono;
+}
+
+
+
+.wrapper{
+    width: 80vw;
+    margin: 10px auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(112,1,1,1) 70%, rgba(115,0,0,1) 96%);
+    -webkit-box-shadow: 5px 5px 14px 3px #000000; 
+    box-shadow: 5px 5px 14px 3px #000000;
+}
+
+header .flex-container{
+    display: flex;
+    height: 200px;
+    justify-content: start;
+    align-items: center;
+    background-image: url("../IMG/banner.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.title{
+    margin-left: 15%;
+}
+
+.title p{
+    opacity: 70%;
+}
+
+.container{
+    display: flex;
+    min-height: 80vh;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.container .rc-car-card img{
+    width: 90%;
+    padding: 5px;
+    
+}
+
+footer .flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    background: rgb(37, 37, 37);
+    color: white;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.rc-car-card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+
+    width: 25%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.rc-car-card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.rc-car-card p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.rc-car-card img{
+    align-self: center;
+}
+
+.model{
+    color: rgb(64, 122, 247);
+    font-weight: 800;
+}
+
+.description{
+    color: #333333;
+    font-weight: 900;
+}
+
+.price{
+    color: rgb(211, 0, 0);
+    font-weight: bold;
+}
+
+
+.help{
+    border-left: 5px solid black;
+    padding-left: 5px;
+}
+
+.resources{
+    border-left: 5px solid black;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
